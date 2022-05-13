@@ -7,5 +7,17 @@ $colores:(
 );
 
 /* EXTEND */
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+/* MIXIN */
+@mixin flexbox ($direction, $justifyt, $align){
+    display: flex;
+    direction: $direction;
+    justify-content:$justifyt ;
+    align-items: $align;
 
+};
 
